@@ -1,0 +1,222 @@
+@charset "UTF-8";
+
+body{
+	margin: 0px 0px 40px;
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: cornflowerblue;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#nav-bar ul, #nav-bar a{
+	background-color: cornflowerblue;
+	color: black;
+	
+}
+
+ul{
+	padding-right: 10px;
+}
+
+li{
+    display: inline;
+    margin: 0px 10px 0px 10px;
+}
+
+a{
+	color: blue;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+	color: black;
+	width: 85%;
+	margin-top: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: center;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#homePhoto{
+	width: 85%;
+	margin-top: 20px;
+}
+
+#explore_btn{
+	width: 174px;
+    margin-bottom: 20px;
+    padding: 8px;
+    font-weight: bold;
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+	border-radius: 8px;
+	background-color: cornflowerblue;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.project_box h2{
+	width: 800px;
+	background-color: cornflowerblue;
+	font-family: Arial, Helvetica, sans-serif;
+	color: black;
+	padding-left: 16px;
+	margin: 1px;
+}
+
+.slide{
+	display: flex;
+	justify-content: space-between;
+}
+
+.slide img{
+	width: 407px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+}
+
+.slide div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 407px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: lightgrey;
+}
+
+.slide div a{
+    margin-bottom: 20px;
+    padding: 8px 40px 8px 40px;
+    font-weight: bold;
+    font-size: medium;
+    text-decoration: none;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+	border-radius: 8px;
+	background-color: cornflowerblue;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.header_text{
+	width: 50%;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+	width: 515px;
+}
+
+.form_input{
+	margin: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.form_input label{
+	font-size:14pt;
+}
+
+.form_input input{
+	width:300px;
+}
+.submit_btn{
+	align-self: flex-end;
+	width: 100px;
+    margin-bottom: 20px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: medium;
+    border: 1px solid black;
+	border-radius: 8px;
+	background-color: cornflowerblue;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.project_text{
+	padding-bottom: 20px;
+	border-style: solid;
+	border-width: 0px 0px 3px 0px;
+	border-color: grey;
+}
+
+.top_row{
+	text-align: left;
+	background-color: cornflowerblue;
+}
+
+table{
+	border-collapse: collapse;
+}
+
+table, th, td{
+	padding: 5px;
+	border: 1px solid black;
+}
+
+table.blog td, table.blog {
+	border: none;
+}
+
+.blog_div{
+	margin: 10px;
+	width: 874px;
+	display: block;
+	justify-content: left;
+}
+
+.blog_post{
+	width: 100%;
+}
+
+.blog_input textarea{
+	width: 100%;
+	height: 80px;
+}
+
+.blog_label{
+	font-size: 25px;
+}
+
+.blog_input label{
+	width: 100px;
+}
+
+.blog_btn{
+	width: 100px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: medium;
+    border: 1px solid black;
+	border-radius: 8px;
+	background-color: cornflowerblue;
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
